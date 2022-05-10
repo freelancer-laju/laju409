@@ -1,0 +1,42 @@
+// DOM event
+// 1. Event Object
+    - event type: change, submit, reset, load,
+      unload, open, play, 
+         canplay, pause, playing,
+         progress, ended, volumechange,
+         resize, scroll, toggle (works with details), beforeprint,
+         afterprint etc.
+    - propertise: type, target,
+        preventDefault()
+
+// 2. MouseEvent Object
+// 3. KeyboardEvent Object
+// 4. FocusEvent Object
+// 5. ClipboardEvent Object
+// 6. DragEvent Object
+
+=================================
+
+// MouseEvent - 
+                 Not working -> <html>, <head>, <meta>,      <title>, <br>, <style>, <script>, <iframe>, <param>, <base>, <bdo>
+
+// 1. onClick
+// 2. ondbClick
+// 3. onMousedown
+// 4. onMouseup
+// 5. onMouseenter
+// 6. onMouseleave
+// 7. onMousemove
+// 8. onMouseover
+
+--------------------------------
+
+// KeyboardEvent Object:
+
+// 1. Keydown - pressing a key, can repeat
+// 2. keypress - (may not supported by some browsers)
+// 3. keyup -
+// Some propertise - key, keyCode, code, shiftKey,
+ctlKey, repeat
+
+--------------------------------
